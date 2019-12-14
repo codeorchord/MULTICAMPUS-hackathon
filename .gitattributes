@@ -1,0 +1,6 @@
+# linguist setting
+src/web/hipdrobe/static/hipdrobe/vendor/*    linguist-vendored
+src/web/hipdrobe/static/hipdrobe/third-party-etc/*   linguist-vendored
+*.css   linguist-vendored
+*.ppt   binary
+
