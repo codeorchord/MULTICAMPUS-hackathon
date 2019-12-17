@@ -81,7 +81,7 @@
 
 ### My 옷장 페이지
 
-![image-20191217120118744](C:\Users\laughaway\AppData\Roaming\Typora\typora-user-images\image-20191217120118744.png)
+![image-20191217133916610](assets/image-20191217133916610.png)
 
 ### My 옷장 - 아이템 리스트 모달
 
