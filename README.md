@@ -5,9 +5,9 @@
 
 :link:[배포 URL](http://hipdrobe.herokuapp.com/)
 
-:link:[프로젝트 프리젠테이션](/assets/힙드로브 프리젠테이션.pdf)
+:link:[프로젝트 프리젠테이션](assets/힙드로브%20프리젠테이션.pdf)
 
-:link:[프로젝트 결과보고서](/assets/종합프로젝트 결과보고서-힙드로브(패션리더).pdf)
+:link:[프로젝트 결과보고서](assets/종합프로젝트%20결과보고서-힙드로브(패션리더).pdf)
 
 ## Hipdrobe 프로젝트 개요
 
