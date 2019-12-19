@@ -13,8 +13,11 @@ $(document).ready(function(){
         }
     });
 
-    getCoordi(false, 1);
-    getCoordi(true, 1);
+    setTimeout(function() {
+        getCoordi(false, 1);
+        getCoordi(true, 1);
+    }, 100);
+    
 });
 
 

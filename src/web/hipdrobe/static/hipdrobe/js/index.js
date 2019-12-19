@@ -37,7 +37,6 @@ function fitBottomPromise() {
 
 function fitBottom() {
     let imgheight = $(".carousel-item.active img").css('height');
-    console.log(imgheight);
     $("#sidebar").css({
         'height': imgheight
     });
