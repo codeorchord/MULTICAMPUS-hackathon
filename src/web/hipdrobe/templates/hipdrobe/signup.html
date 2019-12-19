@@ -28,74 +28,32 @@
 			<div class="inner">
 				<div class="image-holder">
 					
-          <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="
-          width: 800px;
-          height: 510px;
-      ">
+          <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width: 800px; height: 510px;">
             <source src="{%static 'hipdrobe/img/regist_images/mov.mp4'%}">
           </video>
 				</div>
 				<form method='post' action="{% url 'hipdrobe:signup'%}">
-            {%csrf_token%}
+					{%csrf_token%}
           <h3>Sign up</h3>
-		  {% for field in form %}
-		  {{ field.label }}
-		  {{field}}
-          
-					<!-- <div class="form-group">
-						<input type="text" placeholder="First Name" class="form-control">
-						<input type="text" placeholder="Last Name" class="form-control">
-					</div> -->
-					<!-- <div class="form-wrapper">
-						<input type="text" id="{#{ form.username.id_for_label }}"placeholder="Username" class="form-control">
-						<i class="zmdi zmdi-account"></i>
-					</div> -->
-					<!-- <div class="form-wrapper">
-						<input type="email" id="{#{ form.email.id_for_label }}" placeholder="Email Address" class="form-control">
-						<i class="zmdi zmdi-email"></i>
-					</div> -->
-					<!-- <div class="form-wrapper">
-						<select name="" id="{{ form.gender.id_for_label }}" class="form-control">
-							<option value="" disabled selected>Gender</option>
-							<option value="True">Male</option>
-							<option value="False">Female</option>
-							
-						</select>
-						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
-					</div> -->
-					<!-- <div class="form-wrapper">
-						<input type="password" id="{#{ form.password.id_for_label }}" placeholder="Password" class="form-control">
-						<i class="zmdi zmdi-lock"></i>
-					</div> -->
+					{% for field in form %}
+					{{ field.label }}
+					{{field}}
 					{% endfor %}
 
-					<!-- <div class="form-wrapper">
-						<input type="password" placeholder="Confirm Password" class="form-control">
-						<i class="zmdi zmdi-lock"></i>
-					  </div> -->  
-          			<div>
-					<button type="submit">Register
-						<i class="zmdi zmdi-arrow-right"></i>
-          			</button>
-          			</div>
-            <br>
-            <br>
-          <div style="float:right;">
-          
-              <a href="{% url 'hipdrobe:index'%}" >Main</a>
-          
-          </div>
-          <div style=" float: left;">
-          
-              <a href="{% url 'hipdrobe:signin'%}" >Login</a>
-          
-          </div>
-
-        </div>
-        </form>
-        {%endif%}
+					<div>
+						<button type="submit">Register<i class="zmdi zmdi-arrow-right"></i></button>
+					</div>
+					<br>
+					<br>
+					<div style="float:right;">
+						<a href="{% url 'hipdrobe:index'%}" >Main</a>
+					</div>
+					<div style=" float: left;">
+						<a href="{% url 'hipdrobe:signin'%}" >Login</a>
+					</div>
+				</form>
 			</div>
 		</div>
-		
 	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+{%endif%}
 </html>
