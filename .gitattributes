@@ -1,4 +1,5 @@
 # linguist setting
 src/web/hipdrobe/static/hipdrobe/third-party-etc/   linguist-vendored
+*.css   text
 *.ppt   binary
 *.pdf   binary
