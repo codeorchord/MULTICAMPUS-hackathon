@@ -3,7 +3,7 @@
 
 ![image-20191217123011248](assets/image-20191217123011248.png)
 
-:link:[배포 URL](http://hipdrobe.herokuapp.com/)
+:link:[배포 URL: http://hipdrobe.herokuapp.com/](http://hipdrobe.herokuapp.com/)
 
 :link:[프로젝트 프리젠테이션](assets/힙드로브%20프리젠테이션.pdf)
 
